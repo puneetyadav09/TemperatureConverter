@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(101, 124, 255);
+}
+#calcTemp{
+    background-color: rgb(255, 157, 83);
+    min-width: 320px;
+    padding: 10px 20px;
+    min-height: 270px;
+    border: 2px solid;
+    border-radius: 50px;
+}
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 10px;
+}
+#deginput{
+    border: none;
+    width: 110px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+    font-weight: 400;
+}
+#typeinput{
+    border: none;
+    width: 110px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+    font-weight: 400;
+}
+#submit{
+    border: 2px solid;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(131, 249, 131);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px;
+}
